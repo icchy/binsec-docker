@@ -10,3 +10,6 @@ docker build -t binsec .
 docker run --rm -p 5570:5570 -it binsec
 # now binsec server is available at localhost:5570
 ```
+
+## TODO
+ * minimize docker image (currently it has 1.5GB)
